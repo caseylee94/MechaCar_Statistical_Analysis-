@@ -64,3 +64,14 @@ From here we can see the true mean of the sample is 1498.78, which we also saw i
 ![lot_1_ttest.png](/Resources/lot_1_ttest.png)
 <br>*Image 5: T-test results for lot 1*
 
+Lot 1 has a true sample of 1500 and a p-value of 1. Clearly, we cannot reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+
+![lot_2_ttest.png](/Resources/lot_2_ttest.png)
+<br>*Image 6: T-test results for Lot 2*
+
+Lot 2 also has a sample mean of 1500 and has a p-value of 0.6072; the null hypothesis cannot be rejected. 
+
+![lot_3_ttest.png](/Resources/lot_3_ttest.png)
+<br>*Image 7: T-test results for Lot 3*
+
+Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
