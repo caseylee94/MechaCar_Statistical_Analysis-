@@ -84,11 +84,18 @@ To quantify how MechaCar performs against competition, I want to analyze metrics
 ### Metrics:
 * Safety features
 * Gas mileage
+* Price
 
 ## Hypotheses
 * Null Hypotheses: 
   * MechaCar and the competition have no difference between their safety ratings.
   * MechaCar and the competition have no difference between their gas mileage ratings.
+  * * MechaCar and the competition have no difference between their price.
 * Alternative Hypotheses: 
   * MechaCar has a higher safety rating than the competition.
   * MechaCar has a higher gas mileage rating than the competition.
+  * MechaCar has a lower price than the competition.
+
+## Statistical Testing
+
+I would use two-tailed t-test to describe the statistical difference between the distribution from the two samples since the data type is independent and dichotomous (sample A vs. sample B). I would also use a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price.
