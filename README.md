@@ -81,12 +81,12 @@ Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the
 
 To quantify how MechaCar performs against competition, I want to analyze metrics that are typically very important to consumers:
 
-### Metrics:
+#### Metrics:
 * Safety rating
 * Gas mileage
 * Price
 
-## Hypotheses
+#### Hypotheses
 * Null Hypotheses: 
   * MechaCar and the competition have no difference between their safety ratings.
   * MechaCar and the competition have no difference between their gas mileage ratings.
@@ -96,6 +96,6 @@ To quantify how MechaCar performs against competition, I want to analyze metrics
   * MechaCar has a higher gas mileage rating than the competition.
   * MechaCar has a lower price than the competition.
 
-## Statistical Testing
+#### Statistical Testing
 
 I would use two-tailed t-test to describe the statistical difference between the distribution from the two samples since the data type is independent and dichotomous (sample A vs. sample B). I would also use a multiple linear regression to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable); which combination has the greatest impact on price. For these tests I would need extensive data sets from each car company detailing the safety ratings, gas mileage, and price for multiple car lots.
