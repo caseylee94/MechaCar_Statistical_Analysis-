@@ -42,7 +42,8 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 ![total_summary.png](/Resources/total_summary.png)<br>
 *Image 2: This model looks at all of the manufacturing lots as a whole*
-
+<br>
+<br>
 ![lot_summary.png](/Resources/lot_summary.png)<br>
 *Image 3: This model looks at lots individually*
 
