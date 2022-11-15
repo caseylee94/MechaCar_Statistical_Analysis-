@@ -57,10 +57,10 @@ Using your knowledge of R, perform t-tests to determine if all manufacturing lot
 Conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed population mean of 1500, we find the following:
 
 ![ttest_all_lots.png](/Resources/ttest_all_lots.png)
-*Image 4: T-test results across all lots*
+<br>*Image 4: T-test results across all lots*
 
 From here we can see the true mean of the sample is 1498.78, which we also saw in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
 
 ![lot_1_ttest.png](/Resources/lot_1_ttest.png)
-*Image 5: T-test results for lot 1*
+<br>*Image 5: T-test results for lot 1*
 
