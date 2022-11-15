@@ -87,8 +87,8 @@ To quantify how MechaCar performs against competition, I want to analyze metrics
 
 ## Hypotheses
 * Null Hypotheses: 
-** MechaCar and the competition have no difference between their safety ratings.
-** MechaCar and the competition have no difference between their gas mileage ratings.
+  * MechaCar and the competition have no difference between their safety ratings.
+  * MechaCar and the competition have no difference between their gas mileage ratings.
 * Alternative Hypotheses: 
-** MechaCar has a higher safety rating than the competition.
-** MechaCar has a higher gas mileage rating than the competition.
+  * MechaCar has a higher safety rating than the competition.
+  * MechaCar has a higher gas mileage rating than the competition.
