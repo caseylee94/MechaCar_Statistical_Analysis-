@@ -75,3 +75,20 @@ Lot 2 also has a sample mean of 1500 and has a p-value of 0.6072; the null hypot
 <br>*Image 7: T-test results for Lot 3*
 
 Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
+
+## Deliverable 4:
+### Study Design: MechaCar vs Competition
+
+To quantify how MechaCar performs against competition, I want to analyze metrics that are typically very important to consumers:
+
+### Metrics:
+* Safety features
+* Gas mileage
+
+## Hypotheses
+* Null Hypotheses: 
+** MechaCar and the competition have no difference between their safety ratings.
+** MechaCar and the competition have no difference between their gas mileage ratings.
+* Alternative Hypotheses: 
+** MechaCar has a higher safety rating than the competition.
+** MechaCar has a higher gas mileage rating than the competition.
