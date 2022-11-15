@@ -48,3 +48,19 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 *Image 3: This model looks at lots individually*
 
 The understanding for this model is that the design specifications for the MechaCar suspension coils mandate that the variance cannot exceed 100 pounds per square inch. Looking at the total summary (Image 2), the suspension coils are well within this range at 62.293 pounds per square inch. However, looking at the individual models (Image 3), Lot 1 and Lot 2 have low variance and the variance for Lot 3 is much higher, 170.286, exceeding the specified mandate. Lot 3 is disproportionately causing the total lot variance to be higher and the vehicles for Lot 3 should be reevaluated due to potential safety hazard.
+
+## Deliverable 3:  
+### t-Tests on Suspension Coils
+
+Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+Conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed population mean of 1500, we find the following:
+
+![ttest_all_lots.png](/Resources/ttest_all_lots.png)
+*Image 4: T-test results across all lots*
+
+From here we can see the true mean of the sample is 1498.78, which we also saw in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
+
+![lot_1_ttest.png](/Resources/lot_1_ttest.png)
+*Image 5: T-test results for lot 1*
+
