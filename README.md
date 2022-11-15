@@ -81,7 +81,7 @@ Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the
 
 To quantify how MechaCar performs against competition, I want to analyze metrics that are typically very important to consumers:
 
-#### Metrics:
+#### Metrics
 * Safety rating
 * Gas mileage
 * Price
