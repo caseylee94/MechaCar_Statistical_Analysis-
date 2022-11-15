@@ -40,10 +40,10 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 
 #### Resulting Models:
 
-![total_summary.png](/Resources/total_summary.png)
+![total_summary.png](/Resources/total_summary.png)<br>
 *Image 2: This model looks at all of the manufacturing lots as a whole*
 
-![lot_summary.png](/Resources/lot_summary.png)
+![lot_summary.png](/Resources/lot_summary.png)<br>
 *Image 3: This model looks at lots individually*
 
 The understanding for this model is that the design specifications for the MechaCar suspension coils mandate that the variance cannot exceed 100 pounds per square inch. Looking at the total summary (Image 2), the suspension coils are well within this range at 62.293 pounds per square inch. However, looking at the individual models (Image 3), Lot 1 and Lot 2 have low variance and the variance for Lot 3 is much higher, 170.286, exceeding the specified mandate. Lot 3 is disproportionately causing the total lot variance to be higher and the vehicles for Lot 3 should be reevaluated due to potential safety hazard.
