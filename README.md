@@ -10,7 +10,6 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 * Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
-## Deliverable 1
 ### Linear Regression to Predict MPG
 
 The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the `MechaCar_mpg.csv file`.
@@ -30,7 +29,6 @@ the **vehicle weight**, **spoiler angle**, and **All Wheel Drive** (AWD) have p-
 
 3.  This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Relatively speaking, the multiple regression model **does predict mpg of MechaCar prototypes effectively**. 
 
-## Deliverable 2
 ### Summary Statistics on Suspension Coils
 
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
@@ -48,8 +46,7 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 *Image 3: This model looks at lots individually*
 
 The understanding for this model is that the design specifications for the MechaCar suspension coils mandate that the variance cannot exceed 100 pounds per square inch. Looking at the total summary (Image 2), the suspension coils are well within this range at 62.293 pounds per square inch. However, looking at the individual models (Image 3), Lot 1 and Lot 2 have low variance and the variance for Lot 3 is much higher, 170.286, exceeding the specified mandate. Lot 3 is disproportionately causing the total lot variance to be higher and the vehicles for Lot 3 should be reevaluated due to potential safety hazard.
-
-## Deliverable 3:  
+  
 ### t-Tests on Suspension Coils
 
 Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
@@ -76,7 +73,6 @@ Lot 2 also has a sample mean of 1500 and has a p-value of 0.6072; the null hypot
 
 Here the sample mean is 1496.14 and the p-Value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
 
-## Deliverable 4:
 ### Study Design: MechaCar vs Competition
 
 To quantify how MechaCar performs against competition, I want to analyze metrics that are typically very important to consumers:
