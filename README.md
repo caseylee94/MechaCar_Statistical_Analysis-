@@ -3,23 +3,23 @@
 ## Overview of Project
 AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on the data analytics team to review the production data for insights that may help the manufacturing team.
 
-The data analytics team will do the following:
+For this project, the following will be completed:
 
 * Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
 * Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 * Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-* Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+* Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers
 
 ### Linear Regression to Predict MPG
 
-The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the `MechaCar_mpg.csv file`.
+The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using R, a linear model that predicts the mpg of MechaCar prototypes will be designed using several variables from the `MechaCar_mpg.csv file`.
 
 #### Resulting Model:
 
 ![linear_regression.png](/Resources/linear_regression.png)
 *Image 1: Linear regression model predicting MPG*
 
-From the above output we can see that:
+From the above output, it can be concluded:
 
 1. The **vehicle length**, and **vehicle ground clearance** are statistically likely to provide non-random amounts of variance to the model. That is to say, the vehicle length and vehicle ground clearance have a significant impact on miles per gallon on the MechaCar prototype. Conversely,
 the **vehicle weight**, **spoiler angle**, and **All Wheel Drive** (AWD) have p-Values that indicate a random amount of variance with the dataset.  
@@ -31,7 +31,7 @@ the **vehicle weight**, **spoiler angle**, and **All Wheel Drive** (AWD) have p-
 
 ### Summary Statistics on Suspension Coils
 
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using R, a summary statistics table was created to show:
 
 *The suspension coil’s PSI continuous variable across all manufacturing lots<br>
 *The following PSI metrics for each lot: mean, median, variance, and standard deviation.
@@ -49,19 +49,19 @@ The understanding for this model is that the design specifications for the Mecha
   
 ### t-Tests on Suspension Coils
 
-Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+Using R, t-tests were performed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
 
-Conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed population mean of 1500, we find the following:
+Conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed population mean of 1500, the following is found:
 
 ![ttest_all_lots.png](/Resources/ttest_all_lots.png)
 <br>*Image 4: T-test results across all lots*
 
-From here we can see the true mean of the sample is 1498.78, which we also saw in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
+From here it can be seen that the true mean of the sample is 1498.78, which also was seen in the summary statistics above. With a p-Value of 0.06, which is higher than the common significance level of 0.05, there is NOT enough evidence to support rejecting the null hypothesis. That is to say, the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500.
 
 ![lot_1_ttest.png](/Resources/lot_1_ttest.png)
 <br>*Image 5: T-test results for lot 1*
 
-Lot 1 has a true sample of 1500 and a p-value of 1. Clearly, we cannot reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+Lot 1 has a true sample of 1500 and a p-value of 1. Clearly, the null hypothesis cannot be rejected; there is no statistical difference between the observed sample mean and the presumed population mean (1500).
 
 ![lot_2_ttest.png](/Resources/lot_2_ttest.png)
 <br>*Image 6: T-test results for Lot 2*
